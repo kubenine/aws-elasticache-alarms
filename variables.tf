@@ -4,10 +4,6 @@ variable "cache_cluster_id" {
   description = "Elasticache cluster ID"
 }
 
-variable "cache_node_id" {
-  description = "Elasticache node ID"
-}
-
 variable "slack_webhook_url" {
   description = "Slack webhook URL"
   type = string

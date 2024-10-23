@@ -96,7 +96,6 @@ No requirements.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_cache_cluster_id"></a> [cache\_cluster\_id](#input\_cache\_cluster\_id) | Elasticache cluster ID | `any` | n/a | yes |
-| <a name="input_cache_node_id"></a> [cache\_node\_id](#input\_cache\_node\_id) | Elasticache node ID | `any` | n/a | yes |
 | <a name="input_cpu_percent_threshold"></a> [cpu\_percent\_threshold](#input\_cpu\_percent\_threshold) | Threshold for cpu alarm in % | `number` | `90` | no |
 | <a name="input_current_connections_threshold"></a> [current\_connections\_threshold](#input\_current\_connections\_threshold) | Threshold for current connections alarm | `number` | `1000` | no |
 | <a name="input_enable_currconnections_alarm"></a> [enable\_currconnections\_alarm](#input\_enable\_currconnections\_alarm) | Enable or disable the current connections alarm | `bool` | `true` | no |

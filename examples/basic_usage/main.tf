@@ -9,7 +9,6 @@ module "elasticache_slack_alarms" {
 
   # Mandatory variables
   cache_cluster_id   = "kubenine-0001-001"  # Replace with your ElastiCache cluster ID
-  cache_node_id      = "0001"           # Replace with your cache node ID
   slack_webhook_url  = "https://hooks.slack.com/services/BJFKWJFKFNFN743J4H8RWBR43HN33BRBEJKSJ"  # Replace with your Slack webhook URL
 
  

@@ -25,7 +25,6 @@ module "elasticache_slack_alarms" {
 
   # Mandatory variables
   cache_cluster_id   = "your-elasticache-cluster-id"  # Replace with your ElastiCache cluster ID
-  cache_node_id      = "your-cache-node-id"           # Replace with your cache node ID
   slack_webhook_url  = "https://hooks.slack.com/services/your/webhook/url"  # Replace with your Slack webhook URL
 
   # Optional Slack settings
