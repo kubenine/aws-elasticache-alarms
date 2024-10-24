@@ -120,6 +120,22 @@ No outputs.
 <!-- END_TF_DOCS -->
 
 
+
+## Cache Cluster ID
+
+The Cache Cluster ID can be found in the AWS ElastiCache console when viewing your Redis or Memcached clusters. It is a unique identifier for each ElastiCache cluster and is required for various operational tasks, such as monitoring metrics and configuring alarms.
+
+### Example Screenshot
+
+Below is an example screenshot showing where the Cache Cluster ID is located:
+
+![Cache Cluster ID](cache_cluster_id.png)
+
+In this example, the Cache Cluster ID is displayed under the "Selected Nodes" section when viewing the metrics for your ElastiCache cluster.
+
+
+
+
 ## Slack Notifications
 
 This module integrates with Slack to send notifications when CloudWatch alarms are triggered. It uses the [`terraform-aws-modules/notify-slack/aws`](https://github.com/terraform-aws-modules/terraform-aws-notify-slack) module internally.
