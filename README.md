@@ -121,7 +121,7 @@ No outputs.
 
 
 
-## Cache Cluster ID
+## cache_cluster_id
 
 The Cache Cluster ID can be found in the AWS ElastiCache console when viewing your Redis or Memcached clusters. It is a unique identifier for each ElastiCache cluster and is required for various operational tasks, such as monitoring metrics and configuring alarms.
 
